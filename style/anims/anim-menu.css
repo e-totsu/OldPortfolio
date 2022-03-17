@@ -1,0 +1,79 @@
+/******************/
+/***    Open    ***/
+/******************/
+@keyframes menu-open {
+  from {
+    -webkit-transform: scaleX(.9) translateX(-100%);
+    -moz-transform   : scaleX(.9) translateX(-100%);
+    -ms-transform    : scaleX(.9) translateX(-100%);
+    -o-transform     : scaleX(.9) translateX(-100%);
+    transform        : scaleX(.9) translateX(-100%);
+
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform: scaleX(1) translateX(0);
+    -moz-transform   : scaleX(1) translateX(0);
+    -ms-transform    : scaleX(1) translateX(0);
+    -o-transform     : scaleX(1) translateX(0);
+    transform        : scaleX(1) translateX(0);
+
+    opacity: 1;
+  }
+}
+
+/*******************/
+/***    Close    ***/
+/*******************/
+@keyframes menu-close {
+  from {
+    -webkit-transform: scaleX(1) translateX(0);
+    -moz-transform   : scaleX(1) translateX(0);
+    -ms-transform    : scaleX(1) translateX(0);
+    -o-transform     : scaleX(1) translateX(0);
+    transform        : scaleX(1) translateX(0);
+
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform: scaleX(.9) translateX(-100%);
+    -moz-transform   : scaleX(.9) translateX(-100%);
+    -ms-transform    : scaleX(.9) translateX(-100%);
+    -o-transform     : scaleX(.9) translateX(-100%);
+    transform        : scaleX(.9) translateX(-100%);
+
+    opacity: 0;
+  }
+}
+
+/***********************/
+/***    Open Item    ***/
+/***********************/
+@keyframes menu-open-item {
+  to {
+    -webkit-transform: translateX(0);
+    -moz-transform   : translateX(0);
+    -ms-transform    : translateX(0);
+    -o-transform     : translateX(0);
+    transform        : translateX(0);
+
+    opacity: .5;
+  }
+}
+
+/******************************/
+/***    Open Item Active    ***/
+/******************************/
+@keyframes menu-open-item-active {
+  to {
+    -webkit-transform: translateX(0);
+    -moz-transform   : translateX(0);
+    -ms-transform    : translateX(0);
+    -o-transform     : translateX(0);
+    transform        : translateX(0);
+
+    opacity: 1;
+  }
+}

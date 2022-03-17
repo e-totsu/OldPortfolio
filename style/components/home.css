@@ -1,0 +1,92 @@
+/***********************/
+/***    Container    ***/
+/***********************/
+#sec-home .con-me {
+  position: fixed;
+
+  top : 0;
+  left: 0;
+}
+
+/***    Container before    ***/
+#sec-home .con-me::before {
+  content: '';
+
+  position: fixed;
+
+  width : 100%;
+  height: 100%;
+
+  top : 0;
+  left: 0;
+
+  background-image       : url("./../../assets/svgs/ball.svg");
+  background-repeat      : no-repeat;
+  background-position    : center;
+  -webkit-background-size: clamp(100px, 130%, 500px);
+  background-size        : clamp(100px, 130%, 500px);
+
+  z-index: -1;
+}
+
+/****************/
+/***    h5    ***/
+/****************/
+#sec-home .con-me h5 {
+  margin-bottom: -.5rem;
+
+  font-size  : .9rem;
+  font-weight: 500;
+}
+
+/***********************/
+/***    h1: first    ***/
+/***********************/
+#sec-home .con-me h1:first-of-type {
+  margin-bottom: -.5rem;
+
+  font-size: 4rem;
+
+  letter-spacing: 1.6rem;
+
+  color: var(--my-bg-breaker);
+}
+
+/**********************/
+/***    h1: last    ***/
+/**********************/
+#sec-home .con-me h1:last-of-type {
+  font-size: 2.5rem;
+
+  letter-spacing: 1.3rem;
+}
+
+/****************/
+/***    h6    ***/
+/****************/
+#sec-home .con-me h6 {
+  font-size  : .6rem;
+  font-weight: 500;
+
+  color: var(--my-text-secondary);
+
+  opacity: .8;
+}
+
+/*********************************/
+/***    button: scroll down    ***/
+/*********************************/
+#sec-home .scroll-down {
+  position: absolute;
+
+  bottom: 3rem;
+
+  z-index: 1;
+}
+
+/***    animation button: scroll down    ***/
+#sec-home .scroll-down #rect2051 {
+  -webkit-animation: scroll-down 3s infinite cubic-bezier( .65, 0, .35, 1);
+  -o-animation     : scroll-down 3s infinite cubic-bezier( .65, 0, .35, 1);
+  animation        : scroll-down 3s infinite cubic-bezier( .65, 0, .35, 1);
+}

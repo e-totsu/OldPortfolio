@@ -1,0 +1,81 @@
+/********************/
+/***    Header    ***/
+/********************/
+header {
+  top : 0;
+  left: 0;
+}
+
+/*****************************/
+/***    Icon Menu: Open    ***/
+/*****************************/
+.menu.open ~ header .icon * { fill: var(--my-text-secondary) !important }
+
+.menu.open ~ header #menu-icon #rect953  {
+  -webkit-animation: menu-open-icon-0 .3s forwards;
+  -o-animation     : menu-open-icon-0 .3s forwards;
+  animation        : menu-open-icon-0 .3s forwards;
+
+  -webkit-animation-timing-function: cubic-bezier(0, .55, .45, 1);
+  -moz-animation-timing-function   : cubic-bezier(0, .55, .45, 1);
+  -o-animation-timing-function     : cubic-bezier(0, .55, .45, 1);
+  animation-timing-function        : cubic-bezier(0, .55, .45, 1);
+}
+
+.menu.open ~ header #menu-icon #rect1259 {
+  -webkit-animation: menu-open-icon-1 .3s forwards;
+  -o-animation     : menu-open-icon-1 .3s forwards;
+  animation        : menu-open-icon-1 .3s forwards;
+
+  -webkit-animation-timing-function: cubic-bezier(0, .55, .45, 1);
+  -moz-animation-timing-function   : cubic-bezier(0, .55, .45, 1);
+  -o-animation-timing-function     : cubic-bezier(0, .55, .45, 1);
+  animation-timing-function        : cubic-bezier(0, .55, .45, 1);
+}
+
+.menu.open ~ header #menu-icon #rect1155 {
+  -webkit-animation: menu-open-icon-2 .3s forwards;
+  -o-animation     : menu-open-icon-2 .3s forwards;
+  animation        : menu-open-icon-2 .3s forwards;
+
+  -webkit-animation-timing-function: cubic-bezier(0, .55, .45, 1);
+  -moz-animation-timing-function   : cubic-bezier(0, .55, .45, 1);
+  -o-animation-timing-function     : cubic-bezier(0, .55, .45, 1);
+  animation-timing-function        : cubic-bezier(0, .55, .45, 1);
+}
+
+/******************************/
+/***    Icon Menu: Close    ***/
+/******************************/
+.menu.closing ~ header #menu-icon #rect953  {
+  -webkit-animation: menu-close-icon-0 .3s forwards;
+  -o-animation     : menu-close-icon-0 .3s forwards;
+  animation        : menu-close-icon-0 .3s forwards;
+
+  -webkit-animation-timing-function: cubic-bezier(0, .55, .45, 1);
+  -moz-animation-timing-function   : cubic-bezier(0, .55, .45, 1);
+  -o-animation-timing-function     : cubic-bezier(0, .55, .45, 1);
+  animation-timing-function        : cubic-bezier(0, .55, .45, 1);
+}
+
+.menu.closing ~ header #menu-icon #rect1259 {
+  -webkit-animation: menu-close-icon-1 .3s forwards;
+  -o-animation     : menu-close-icon-1 .3s forwards;
+  animation        : menu-close-icon-1 .3s forwards;
+
+  -webkit-animation-timing-function: cubic-bezier(0, .55, .45, 1);
+  -moz-animation-timing-function   : cubic-bezier(0, .55, .45, 1);
+  -o-animation-timing-function     : cubic-bezier(0, .55, .45, 1);
+  animation-timing-function        : cubic-bezier(0, .55, .45, 1);
+}
+
+.menu.closing ~ header #menu-icon #rect1155 {
+  -webkit-animation: menu-close-icon-2 .3s forwards;
+  -o-animation     : menu-close-icon-2 .3s forwards;
+  animation        : menu-close-icon-2 .3s forwards;
+
+  -webkit-animation-timing-function: cubic-bezier(0, .55, .45, 1);
+  -moz-animation-timing-function   : cubic-bezier(0, .55, .45, 1);
+  -o-animation-timing-function     : cubic-bezier(0, .55, .45, 1);
+  animation-timing-function        : cubic-bezier(0, .55, .45, 1);
+}

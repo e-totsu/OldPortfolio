@@ -1,0 +1,112 @@
+.menu {
+  top: 0;
+  left: 0;
+
+  background-color: rgba(0, 0, 0, .37);
+  backdrop-filter: blur(1rem);
+
+  -webkit-transform-origin: left center;
+  -moz-transform-origin   : left center;
+  -ms-transform-origin    : left center;
+  -o-transform-origin     : left center;
+  transform-origin        : left center;
+
+  -webkit-transform: scaleX(.9) translateX(-100%);
+  -moz-transform   : scaleX(.9) translateX(-100%);
+  -ms-transform    : scaleX(.9) translateX(-100%);
+  -o-transform     : scaleX(.9) translateX(-100%);
+  transform        : scaleX(.9) translateX(-100%);
+
+  opacity: 0;
+
+  z-index: 998;
+}
+
+/**********************************/
+/***    Menu Animation: Open    ***/
+/**********************************/
+.menu.open {
+  -webkit-animation: menu-open .75s forwards;
+  -o-animation     : menu-open .75s forwards;
+  animation        : menu-open .75s forwards;
+
+  -webkit-animation-timing-function: cubic-bezier(.85, 0, .15, 1);
+  -moz-animation-timing-function   : cubic-bezier(.85, 0, .15, 1);
+  -o-animation-timing-function     : cubic-bezier(.85, 0, .15, 1);
+  animation-timing-function        : cubic-bezier(.85, 0, .15, 1);
+}
+
+/***********************************/
+/***    Menu Animation: Close    ***/
+/***********************************/
+.menu.closing {
+  -webkit-animation: menu-close .75s forwards;
+  -o-animation     : menu-close .75s forwards;
+  animation        : menu-close .75s forwards;
+
+  -webkit-animation-timing-function: cubic-bezier(.85, 0, .15, 1);
+  -moz-animation-timing-function   : cubic-bezier(.85, 0, .15, 1);
+  -o-animation-timing-function     : cubic-bezier(.85, 0, .15, 1);
+  animation-timing-function        : cubic-bezier(.85, 0, .15, 1);
+}
+
+/**********************************/
+/***    Menu Item not active    ***/
+/***      Animation: Close      ***/
+/**********************************/
+.menu.open li:not(.active) {
+  -webkit-animation: menu-open-item .25s forwards;
+  -o-animation     : menu-open-item .25s forwards;
+  animation        : menu-open-item .25s forwards;
+
+  -webkit-animation-timing-function: cubic-bezier(.61, 1, .88, 1);
+  -moz-animation-timing-function   : cubic-bezier(.61, 1, .88, 1);
+  -o-animation-timing-function     : cubic-bezier(.61, 1, .88, 1);
+  animation-timing-function        : cubic-bezier(.61, 1, .88, 1);
+
+  -webkit-animation-delay: .75s;
+  -moz-animation-delay   : .75s;
+  -o-animation-delay     : .75s;
+  animation-delay        : .75s;
+}
+
+/******************************/
+/***    Menu Item active    ***/
+/***    Animation: Close    ***/
+/******************************/
+.menu.open li.active {
+  -webkit-animation: menu-open-item-active .25s forwards;
+  -o-animation     : menu-open-item-active .25s forwards;
+  animation        : menu-open-item-active .25s forwards;
+
+  -webkit-animation-timing-function: cubic-bezier(.61, 1, .88, 1);
+  -moz-animation-timing-function   : cubic-bezier(.61, 1, .88, 1);
+  -o-animation-timing-function     : cubic-bezier(.61, 1, .88, 1);
+  animation-timing-function        : cubic-bezier(.61, 1, .88, 1);
+
+  -webkit-animation-delay: .75s;
+  -moz-animation-delay   : .75s;
+  -o-animation-delay     : .75s;
+  animation-delay        : .75s;
+}
+
+/************************/
+/***    Menu Items    ***/
+/************************/
+.menu ul { margin-top: 5rem }
+
+.menu li {
+  opacity: 0;
+
+  cursor: pointer;
+
+  -webkit-transform: translateX(-10%);
+  -moz-transform   : translateX(-10%);
+  -ms-transform    : translateX(-10%);
+  -o-transform     : translateX(-10%);
+  transform        : translateX(-10%);
+}
+
+.menu li:not(.active):hover { opacity: .3 !important }
+
+.menu h3 { color: var(--my-text-secondary) }
