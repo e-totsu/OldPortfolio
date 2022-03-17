@@ -1,3 +1,5 @@
+:root { --con-me-size: 1 }
+
 /***********************/
 /***    Container    ***/
 /***********************/
@@ -23,8 +25,14 @@
   background-image       : url("./../../assets/svgs/ball.svg");
   background-repeat      : no-repeat;
   background-position    : center;
-  -webkit-background-size: clamp(100px, 130%, 500px);
-  background-size        : clamp(100px, 130%, 500px);
+  -webkit-background-size: clamp(500px, 50vh, 650px);
+  background-size        : clamp(500px, 50vh, 650px);
+
+  -webkit-transform: scale(var(--con-me-size));
+  -moz-transform   : scale(var(--con-me-size));
+  -ms-transform    : scale(var(--con-me-size));
+  -o-transform     : scale(var(--con-me-size));
+  transform        : scale(var(--con-me-size));
 
   z-index: -1;
 }
@@ -78,6 +86,11 @@
 /*********************************/
 #sec-home .scroll-down {
   position: absolute;
+
+  left : 0;
+  right: 0;
+
+  margin: 0 auto;
 
   bottom: 3rem;
 

@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
 
-  letter-spacing: .15rem;
+  letter-spacing: .14rem;
 
   color: var(--my-text-primary);
 }
@@ -42,8 +42,8 @@ header {
 /***    Icon    ***/
 /******************/
 .icon {
-  width : 24px;
-  height: 20px;
+  width : 1.8rem;
+  height: 1.4rem;
 
   cursor: pointer;
 
@@ -59,26 +59,50 @@ header {
 
 /***    Icon: small    ***/
 .icon.icon-sm {
-  width : 18px;
-  height: 14px;
+  width : 1.4rem;
+  height: 1rem;
 }
 
 /***    Icon: medium    ***/
 .icon.icon-md {
-  width : 40px;
-  height: 36px;
+  width : 2.8rem;
+  height: 2.4rem;
 }
 
 /*********************/
 /***    Section    ***/
 /*********************/
 .section {
-  width : 100vw;
-  height: 100vh;
+  width     : 100vw;
+  min-height: 100vh;
+
+  padding: 200px 0;
 
   display        : flex;
   justify-content: center;
   align-items    : center;
 
+  overflow: hidden;
+
   z-index: 1;
 }
+
+/***    Section: Container Top    ***/
+.section .con-top { padding-bottom: 124px }
+
+/***    Section: Title    ***/
+.section .sec-title { font-weight: 600 }
+
+/***    Section: Description    ***/
+.section .sec-desc {
+  line-height: 1.6rem;
+
+  font-weight: 300;
+
+  letter-spacing: .14rem;
+
+  color: var(--my-text-primary-64);
+}
+
+/***    Section Description: breaker    ***/
+.section .sec-desc span { color: var(--my-text-primary) }

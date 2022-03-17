@@ -1,1 +1,49 @@
 #sec-about { background: var(--my-bg-primary) }
+
+#sec-about .my-picture {
+  width : min(80%, 320px);
+  height: min(100%, 420px);
+
+  border: 2px solid var(--my-bg-primary-5);
+  border-radius: var(--my-rad-primary);
+
+  -webkit-box-shadow: 30px 30px 60px 0 var(--my-sha);
+  -moz-box-shadow   : 30px 30px 60px 0 var(--my-sha);
+  box-shadow        : 30px 30px 60px 0 var(--my-sha);
+
+  -webkit-transform: scaleX(-1);
+  -moz-transform   : scaleX(-1);
+  -ms-transform    : scaleX(-1);
+  -o-transform     : scaleX(-1);
+  transform        : scaleX(-1);
+}
+
+#sec-about .my-picture-back {
+  position: absolute;
+
+  top  : -50px;
+  right: -60px;
+
+  width : 270px;
+  height: 200%;
+
+  z-index: -1;
+}
+
+#sec-about .con-quote p {
+  font-size  : 1.5rem;
+  font-weight: 200;
+  font-family: 'Raleway', sans-serif;
+  font-style : italic;
+
+  letter-spacing: .3rem;
+
+  color: var(--my-text-primary-64);
+}
+
+#sec-about .con-quote p span { color: var(--my-text-primary) }
+
+#sec-about .con-quote p ~ span {
+  font-size  : .9rem;
+  font-weight: 200;
+}

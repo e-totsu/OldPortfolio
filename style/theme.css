@@ -1,8 +1,15 @@
 :root {
   --my-bg-primary  : #FAFAFA;
+  --my-bg-primary-5: rgba(250, 250, 250, .5);
   --my-bg-secondary: #F2D0DD;
   --my-bg-breaker  : #F28095;
 
-  --my-text-primary: #717171;
-  --my-text-secondary: #212121;
+  --my-text-primary   : #717171;
+  --my-text-primary-64: rgba(113, 113, 113, .64);
+  --my-text-secondary : #212121;
+
+  --my-rad-primary  : 34px;
+  --my-rad-secondary: 12px;
+
+  --my-sha: rgba(55, 84, 170, .1);
 }
