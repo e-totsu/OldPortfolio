@@ -1,0 +1,27 @@
+/********************************/
+/***    Container Projects    ***/
+/********************************/
+#sec-projects .con-projects {
+  max-width: 875px;
+
+  -webkit-border-radius: var(--my-rad-primary);
+  -moz-border-radius   : var(--my-rad-primary);
+  border-radius        : var(--my-rad-primary);
+
+  -webkit-box-shadow: 30px 30px 60px 0 var(--my-sha);
+  -moz-box-shadow   : 30px 30px 60px 0 var(--my-sha);
+  box-shadow        : 30px 30px 60px 0 var(--my-sha);
+}
+
+/*****************************/
+/***    Element Project    ***/
+/*****************************/
+#sec-projects .el-project {
+  -webkit-transition: opacity .5s cubic-bezier(.22, 1, .36, 1);
+  -moz-transition   : opacity .5s cubic-bezier(.22, 1, .36, 1);
+  -ms-transition    : opacity .5s cubic-bezier(.22, 1, .36, 1);
+  -o-transition     : opacity .5s cubic-bezier(.22, 1, .36, 1);
+  transition        : opacity .5s cubic-bezier(.22, 1, .36, 1);
+}
+
+#sec-projects .el-project:hover { opacity: .9 }

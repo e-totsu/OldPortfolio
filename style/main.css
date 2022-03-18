@@ -69,6 +69,32 @@ header {
   height: 2.4rem;
 }
 
+/***************/
+/***    a    ***/
+/***************/
+a {
+  color: var(--my-bg-breaker);
+
+  text-decoration: none;
+}
+
+a:hover { color: var(--my-bg-breaker) }
+
+/********************/
+/***    Button    ***/
+/********************/
+.btn {
+  color: var(--my-bg-breaker);
+
+  transition: all .14s ease-in-out;
+}
+
+.btn:hover {
+  color: var(--my-bg-breaker);
+
+  opacity: .5;
+}
+
 /*********************/
 /***    Section    ***/
 /*********************/
@@ -77,6 +103,8 @@ header {
   min-height: 100vh;
 
   padding: 200px 0;
+
+  background: var(--my-bg-primary);
 
   display        : flex;
   justify-content: center;
@@ -95,6 +123,8 @@ header {
 
 /***    Section: Description    ***/
 .section .sec-desc {
+  max-width: 650px;
+
   line-height: 1.6rem;
 
   font-weight: 300;

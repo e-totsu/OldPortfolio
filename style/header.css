@@ -9,7 +9,8 @@ header {
 /*****************************/
 /***    Icon Menu: Open    ***/
 /*****************************/
-.menu.open ~ header .icon * { fill: var(--my-text-secondary) !important }
+.menu.open ~ header .icon *,
+.menu.open ~ .header-ico * { fill: var(--my-text-secondary) !important }
 
 .menu.open ~ header #menu-icon #rect953  {
   -webkit-animation: menu-open-icon-0 .3s forwards;

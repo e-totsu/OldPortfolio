@@ -1,10 +1,11 @@
-#sec-about { background: var(--my-bg-primary) }
-
+/************************/
+/***    My Picture    ***/
+/************************/
 #sec-about .my-picture {
   width : min(80%, 320px);
   height: min(100%, 420px);
 
-  border: 2px solid var(--my-bg-primary-5);
+  border: 2px solid var(--my-bg-primary-1);
   border-radius: var(--my-rad-primary);
 
   -webkit-box-shadow: 30px 30px 60px 0 var(--my-sha);
@@ -18,19 +19,27 @@
   transform        : scaleX(-1);
 }
 
+/************************************/
+/***    My Picture Back Column    ***/
+/************************************/
 #sec-about .my-picture-back {
   position: absolute;
 
   top  : -50px;
   right: -60px;
 
-  width : 270px;
-  height: 200%;
+  height: 600px;
 
   z-index: -1;
 }
 
+/******************************/
+/***    Container: Quote    ***/
+/******************************/
 #sec-about .con-quote p {
+  width: 450px;
+  max-width: 100%;
+
   font-size  : 1.5rem;
   font-weight: 200;
   font-family: 'Raleway', sans-serif;
@@ -41,9 +50,11 @@
   color: var(--my-text-primary-64);
 }
 
-#sec-about .con-quote p span { color: var(--my-text-primary) }
-
+/***    Container Quote: span    ***/
 #sec-about .con-quote p ~ span {
   font-size  : .9rem;
   font-weight: 200;
 }
+
+/***    Container Quote span: breaker    ***/
+#sec-about .con-quote p span { color: var(--my-text-primary) }
