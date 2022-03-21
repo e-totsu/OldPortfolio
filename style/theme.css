@@ -8,9 +8,12 @@
   --my-text-primary   : #717171;
   --my-text-primary-64: rgba(113, 113, 113, .64);
   --my-text-secondary : #212121;
+  --my-text-dark      : #000;
 
   --my-rad-primary  : 34px;
   --my-rad-secondary: 12px;
 
   --my-sha: rgba(55, 84, 170, .1);
+
+  --my-gr-primary: linear-gradient(90deg, rgba(242,208,221,1) 0%, rgba(229,211,218,1) 50%, rgba(215,215,215,1) 100%);
 }

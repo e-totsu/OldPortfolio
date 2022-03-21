@@ -1,0 +1,9 @@
+/*******************************/
+/***    Container Blossom    ***/
+/*******************************/
+#sec-socials .con-blossom {
+  width : 100%;
+  height: clamp(328px, 100vh, 384px);
+
+  max-width: 436px;
+}

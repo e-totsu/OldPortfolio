@@ -28,9 +28,9 @@
      inkscape:document-units="mm"
      showgrid="false"
      units="px"
-     inkscape:zoom="0.98232181"
-     inkscape:cx="-10.688961"
-     inkscape:cy="160.84342"
+     inkscape:zoom="1.1440992"
+     inkscape:cx="-149.02553"
+     inkscape:cy="155.58091"
      inkscape:window-width="3440"
      inkscape:window-height="1412"
      inkscape:window-x="0"
@@ -388,7 +388,7 @@
        fx="66.145836"
        fy="132.29167"
        r="66.145836"
-       gradientTransform="matrix(0.99928686,0,0,0.10080081,0.0471733,112.34194)"
+       gradientTransform="matrix(0.60500836,0,0,0.05511075,26.127053,101.45304)"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <g
@@ -396,15 +396,15 @@
      inkscape:groupmode="layer"
      id="layer1">
     <ellipse
-       style="fill:url(#radialGradient7448);fill-opacity:1;stroke:#fafafa;stroke-width:0.862003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.101961;paint-order:normal;opacity:0.45"
+       style="opacity:0.4;fill:url(#radialGradient7448);fill-opacity:1;stroke:#fafafa;stroke-width:0.495942;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.101961;paint-order:normal"
        id="path7144"
        cx="66.145836"
-       cy="125.67709"
-       rx="65.714828"
-       ry="6.1835818" />
+       cy="108.74377"
+       rx="39.786495"
+       ry="3.3807449" />
     <g
        id="g7807"
-       transform="matrix(-1.0703526,0,0,-1.0703526,121.98257,119.26972)">
+       transform="matrix(-0.70352579,0,0,-0.70352579,102.84643,104.33564)">
       <rect
          style="fill:url(#linearGradient4747);fill-opacity:1;stroke:#fafafa;stroke-width:0.348675;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.101961;paint-order:normal;filter:url(#filter7035)"
          id="rect4611"

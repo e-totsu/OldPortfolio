@@ -1,8 +1,8 @@
 .menu {
-  top: 0;
+  top : 0;
   left: 0;
 
-  background-color: rgba(0, 0, 0, .37);
+  background-color: rgba(255, 255, 255, .37);
   backdrop-filter: blur(1rem);
 
   -webkit-transform-origin: left center;
@@ -93,7 +93,7 @@
 /************************/
 /***    Menu Items    ***/
 /************************/
-.menu ul { margin-top: 5rem }
+.menu ul { margin-top: 10rem }
 
 .menu li {
   opacity: 0;
@@ -109,4 +109,4 @@
 
 .menu li:not(.active):hover { opacity: .3 !important }
 
-.menu h3 { color: var(--my-text-secondary) }
+.menu h3 { color: var(--my-text-dark) }

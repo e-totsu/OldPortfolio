@@ -2,6 +2,7 @@
 @import "anims/root-anims.css";
 @import "menu.css";
 @import "header.css";
+@import "footer.css";
 @import "components/root-components.css";
 
 /************************/
@@ -15,6 +16,8 @@ html, body {
   color: var(--my-text-primary);
 
   background: var(--my-bg-primary);
+
+  -webkit-overflow-scrolling: touch;
 }
 
 /***********************/
@@ -118,6 +121,33 @@ a:hover { color: var(--my-bg-breaker) }
 /***    Section: Container Top    ***/
 .section .con-top { padding-bottom: 124px }
 
+/***    Section Container Top span: a    ***/
+.section .con-top span a {
+  position: relative;
+
+  padding-bottom: .6rem;
+}
+
+/***    Section Container Top span a: after    ***/
+.section .con-top span a::after {
+  content: '';
+
+  position: absolute;
+
+  width : 60%;
+  height: 1px;
+
+  bottom: 0;
+  left  : 0;
+  right : 0;
+
+  margin: 0 auto;
+
+  background: var(--my-bg-breaker);
+
+  opacity: .5;
+}
+
 /***    Section: Title    ***/
 .section .sec-title { font-weight: 600 }
 
@@ -135,4 +165,38 @@ a:hover { color: var(--my-bg-breaker) }
 }
 
 /***    Section Description: breaker    ***/
-.section .sec-desc span { color: var(--my-text-primary) }
+.section .sec-desc a { color: var(--my-text-primary) }
+
+/***    Section Description: a    ***/
+.section .sec-desc a { position: relative }
+
+/***    Section Description a: after    ***/
+.section .sec-desc a::after {
+  content: '';
+
+  position: absolute;
+
+  width : 80%;
+  height: 1px;
+
+  bottom: -.1rem;
+  left  : 0;
+  right : 0;
+
+  margin: 0 auto;
+
+  background: var(--my-bg-breaker);
+
+  opacity: 0;
+
+  transition: all .14s ease-in-out;
+}
+
+/***    Section Description a after: hover    ***/
+.section .sec-desc a:hover::after {
+  width: 90%;
+
+  bottom: -.2rem;
+
+  opacity: 1;
+}

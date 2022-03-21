@@ -1,0 +1,49 @@
+footer {
+  background: var(--my-bg-primary);
+
+  z-index: 1;
+}
+
+/*************************/
+/***    Footer Text    ***/
+/*************************/
+footer .footer-text {
+  font-size: .8rem;
+
+  color: var(--my-text-primary-64);
+}
+
+/***    Footer Text: span and a    ***/
+footer .footer-text span,
+footer .footer-text a {
+  color: var(--my-text-primary);
+}
+
+/******************************/
+/***    Container Footer    ***/
+/******************************/
+footer .con-footer {
+  background: var(--my-gr-primary);
+
+  border-top-left-radius : var(--my-rad-primary);
+  border-top-right-radius: var(--my-rad-primary);
+}
+
+@media (min-width: 768px) {
+  /**********************************/
+  /***    MD Scroll Top button    ***/
+  /**********************************/
+  footer .scroll-top {
+    position: absolute;
+
+    top: 0;
+  }
+
+  /*********************************/
+  /***    MD Container Footer    ***/
+  /*********************************/
+  footer .con-footer {
+    border-top-left-radius : 0;
+    border-top-right-radius: 0;
+  }
+}
