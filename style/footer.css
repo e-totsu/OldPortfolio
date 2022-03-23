@@ -25,6 +25,9 @@ footer .footer-text a {
 footer .con-footer {
   background: var(--my-gr-primary);
 
+  border: 0 solid var(--my-bg-light-1);
+  border-top-width: 1px;
+
   border-top-left-radius : var(--my-rad-primary);
   border-top-right-radius: var(--my-rad-primary);
 }
