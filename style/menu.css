@@ -3,7 +3,7 @@
   left: 0;
 
   background-color: rgba(255, 255, 255, .37);
-  backdrop-filter: blur(1rem);
+  backdrop-filter : blur(1rem);
 
   -webkit-transform-origin: left center;
   -moz-transform-origin   : left center;
