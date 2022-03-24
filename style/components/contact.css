@@ -1,0 +1,24 @@
+/******************/
+/***    Fork    ***/
+/******************/
+#sec-contact .fork {
+  position: absolute;
+
+  -webkit-transform: rotateZ(30deg);
+  -moz-transform   : rotateZ(30deg);
+  -ms-transform    : rotateZ(30deg);
+  -o-transform     : rotateZ(30deg);
+  transform        : rotateZ(30deg);
+}
+
+/***    Fork: First    ***/
+#sec-contact .fork:first-of-type {
+  top : -5rem;
+  left: -3rem;
+}
+
+/***    Fork: Last    ***/
+#sec-contact .fork:last-of-type {
+  bottom: -5rem;
+  right : -3rem;
+}

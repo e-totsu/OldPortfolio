@@ -1,0 +1,51 @@
+/********************/
+/***    Roboto    ***/
+/********************/
+@font-face {
+  font-family: "Roboto";
+  src: url('./../assets/fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url('./../assets/fonts/Roboto/Roboto-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url('./../assets/fonts/Roboto/Roboto-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url('./../assets/fonts/Roboto/Roboto-Bold.ttf');
+  font-weight: bold;
+}
+
+/*********************/
+/***    Raleway    ***/
+/*********************/
+@font-face {
+  font-family: "Raleway";
+  src: url('./../assets/fonts/Raleway/static/Raleway-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url('./../assets/fonts/Raleway/static/Raleway-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url('./../assets/fonts/Raleway/static/Raleway-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url('./../assets/fonts/Roboto/Roboto-Bold.ttf');
+  font-weight: bold;
+}

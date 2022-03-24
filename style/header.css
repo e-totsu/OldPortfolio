@@ -12,6 +12,10 @@ header {
 .menu.open ~ header .icon *,
 .menu.open ~ .header-ico * { fill: var(--my-text-secondary) !important }
 
+.menu.open ~ header #menu-icon {
+  position: relative;
+}
+
 .menu.open ~ header #menu-icon #rect953  {
   -webkit-animation: menu-open-icon-0 .3s forwards;
   -o-animation     : menu-open-icon-0 .3s forwards;

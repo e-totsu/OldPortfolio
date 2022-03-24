@@ -23,7 +23,7 @@
 
 @keyframes menu-open-icon-2 {
   to {
-    width: 13.229167px;
+    width: 13px;
 
     -webkit-transform: rotateZ(45deg) translateX(-38%) translateY(-87.5%);
     -moz-transform   : rotateZ(45deg) translateX(-38%) translateY(-87.5%);
@@ -74,7 +74,7 @@
 
 @keyframes menu-close-icon-2 {
   from {
-    width: 13.229167px;
+    width: 13px;
 
     -webkit-transform: rotateZ(45deg) translateX(-38%) translateY(-87.5%);
     -moz-transform   : rotateZ(45deg) translateX(-38%) translateY(-87.5%);
@@ -84,7 +84,7 @@
   }
 
   to {
-    width: 5.2916665px;
+    width: 5px;
 
     -webkit-transform: rotateZ(0) translateX(0) translateY(0);
     -moz-transform   : rotateZ(0) translateX(0) translateY(0);

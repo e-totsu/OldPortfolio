@@ -4,6 +4,7 @@
 @import "header.css";
 @import "footer.css";
 @import "components/root-components.css";
+@import "fonts.css";
 
 /************************/
 /***    html, body    ***/
@@ -17,7 +18,7 @@ html, body {
 
   background: var(--my-bg-primary);
 
-  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
 }
 
 /***********************/
@@ -109,11 +110,10 @@ a:hover { color: var(--my-bg-breaker) }
 
   background: var(--my-bg-primary);
 
+  position       : relative;
   display        : flex;
   justify-content: center;
   align-items    : center;
-
-  overflow: hidden;
 
   z-index: 1;
 }
