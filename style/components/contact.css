@@ -13,12 +13,12 @@
 
 /***    Fork: First    ***/
 #sec-contact .fork:first-of-type {
-  top : -5rem;
-  left: -3rem;
+  top : -7rem;
+  left: 0;
 }
 
 /***    Fork: Last    ***/
 #sec-contact .fork:last-of-type {
-  bottom: -5rem;
-  right : -3rem;
+  bottom: -7rem;
+  right : -1rem;
 }

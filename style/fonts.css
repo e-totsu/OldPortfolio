@@ -4,23 +4,27 @@
 @font-face {
   font-family: "Roboto";
   src: url('./../assets/fonts/Roboto/Roboto-Regular.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Roboto";
   src: url('./../assets/fonts/Roboto/Roboto-Light.ttf');
+  font-display: swap;
   font-weight: 300;
 }
 
 @font-face {
   font-family: "Roboto";
   src: url('./../assets/fonts/Roboto/Roboto-Medium.ttf');
+  font-display: swap;
   font-weight: 500;
 }
 
 @font-face {
   font-family: "Roboto";
   src: url('./../assets/fonts/Roboto/Roboto-Bold.ttf');
+  font-display: swap;
   font-weight: bold;
 }
 
@@ -30,22 +34,33 @@
 @font-face {
   font-family: "Raleway";
   src: url('./../assets/fonts/Raleway/static/Raleway-Regular.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Raleway";
   src: url('./../assets/fonts/Raleway/static/Raleway-Light.ttf');
+  font-display: swap;
   font-weight: 300;
 }
 
 @font-face {
   font-family: "Raleway";
   src: url('./../assets/fonts/Raleway/static/Raleway-Medium.ttf');
+  font-display: swap;
   font-weight: 500;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url('./../assets/fonts/Roboto/Roboto-Bold.ttf');
+  src: url('./../assets/fonts/Raleway/static/Raleway-SemiBold.ttf');
+  font-display: swap;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url('./../assets/fonts/Raleway/static/Raleway-Bold.ttf');
+  font-display: swap;
   font-weight: bold;
 }
