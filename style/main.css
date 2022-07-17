@@ -61,6 +61,11 @@ header {
   height: 100%;
 }
 
+.icon.pink svg * {
+  fill  : var(--my-bg-breaker) !important;
+  stroke: var(--my-bg-breaker) !important;
+}
+
 /***    Icon: small    ***/
 .icon.icon-sm {
   width : 1.4rem;

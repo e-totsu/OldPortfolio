@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5XPW3WT');</script>
+  <!-- End Google Tag Manager -->
+
   <title>Kamil Sohlich</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Kamil Sohlich programmer portfolio. I am a front-end, back-end developer and ui, ux designer from Europe." />
+  <meta name="description" content="Kamil Sohlich programmer and designer portfolio. I am a front-end, back-end developer and ui, ux designer from Europe." />
   <meta name="author" content="Kamil Sohlich">
-  <meta name="keywords" content="Kamil Sohlich, Kamil, Sohlich, Portfolio, portfolio, Programmer, programmer">
+  <meta name="keywords" content="Kamil Sohlich, Kamil, Sohlich, portfolio, programmer, designer, ui, ux, ui/ux, developer">
   <meta name="theme-color" content="#F06292">
   <meta name="color-scheme" content="light only">
   <meta http-equiv="Cache-control" content="public">
@@ -73,9 +81,19 @@
 
   <!--    CSS: Main    -->
   <link rel="stylesheet" href="style/main.css" />
+
+  <!--    CSS: AOS    -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body class="d-flex flex-column justify-content-center">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5XPW3WT"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
   <!---------------->
   <!--    Menu    -->
   <!---------------->
@@ -209,7 +227,7 @@
       <!--    Header Icon: Menu    -->
       <div
         id="menu-icon"
-        class="icon"
+        class="icon position-relative"
         _='
         on click get .menu
         then set menu to it
@@ -228,80 +246,45 @@
       '
       >
         <svg
-          viewBox="0 0 13.229166 13.229167"
-          version="1.1"
-          id="svg5"
-          inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
-          sodipodi:docname="menu.svg"
-          inkscape:export-filename="/Users/kamil/Documents/workspace/Assets/totsu/icon.ico"
-          inkscape:export-xdpi="96"
-          inkscape:export-ydpi="96"
-          xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-          xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:svg="http://www.w3.org/2000/svg">
-          <sodipodi:namedview
-            id="namedview7"
-            pagecolor="#ffffff"
-            bordercolor="#666666"
-            borderopacity="1.0"
-            inkscape:pageshadow="2"
-            inkscape:pageopacity="0.0"
-            inkscape:pagecheckerboard="0"
-            inkscape:document-units="mm"
-            showgrid="false"
-            units="px"
-            inkscape:zoom="17.625898"
-            inkscape:cx="11.77245"
-            inkscape:cy="20.424491"
-            inkscape:window-width="3440"
-            inkscape:window-height="1412"
-            inkscape:window-x="0"
-            inkscape:window-y="0"
-            inkscape:window-maximized="0"
-            inkscape:current-layer="layer1" />
-          <defs
-            id="defs2" />
-          <g
-            inkscape:label="Layer 1"
-            inkscape:groupmode="layer"
-            id="layer1">
-            <rect
-              style="fill:#f28095;fill-opacity:1;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke markers fill"
-              id="rect953"
-              width="13.229167"
-              height="2.1166666"
-              x="-1.5894572e-07"
-              y="5.5562501"
-              rx="0.540398"
-              ry="0.540398" />
-            <rect
-              style="fill:#f28095;fill-opacity:1;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke markers fill"
-              id="rect1155"
-              width="5.2916665"
-              height="2.1166666"
-              x="7.9375005"
-              y="10.054167"
-              rx="0.61545265"
-              ry="0.61545265" />
-            <rect
-              style="fill:#f28095;fill-opacity:1;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke markers fill"
-              id="rect1259"
-              width="3.7041667"
-              height="2.1166666"
-              x="-1.5894572e-07"
-              y="1.0583333"
-              rx="0.61545336"
-              ry="0.61545336" />
-          </g>
+          width="256px"
+          height="256px"
+          viewBox="0 0 13.229 13.229"
+        >
+          <rect
+            style="fill:#f28095;fill-opacity:1;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke markers fill"
+            id="rect953"
+            width="13.229167"
+            height="2.1166666"
+            x="-1.5894572e-07"
+            y="5.5562501"
+            rx="0.540398"
+            ry="0.540398" />
+          <rect
+            style="fill:#f28095;fill-opacity:1;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke markers fill"
+            id="rect1155"
+            width="5.2916665"
+            height="2.1166666"
+            x="7.9375005"
+            y="10.054167"
+            rx="0.61545265"
+            ry="0.61545265" />
+          <rect
+            style="fill:#f28095;fill-opacity:1;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke markers fill"
+            id="rect1259"
+            width="3.7041667"
+            height="2.1166666"
+            x="-1.5894572e-07"
+            y="1.0583333"
+            rx="0.61545336"
+            ry="0.61545336" />
         </svg>
       </div>
 
       <!--    Header Icon Container: SM    -->
       <div class="d-flex d-md-none">
         <!--    Header Icon: Linkedin    -->
-        <div class="icon icon-sm me-2">
-          <a href="https://www.linkedin.com/in/kamil-sohlich-127653218" rel="nofollow">
+        <div class="icon pink icon-sm me-2">
+          <a href="https://www.linkedin.com/in/kamil-sohlich-127653218" target="_blank" rel="nofollow">
             <svg
               viewBox="0 0 13.229166 13.229167"
               version="1.1"
@@ -1152,8 +1135,8 @@
         <!--    Close::Header Icon: Linkedin    -->
 
         <!--    Header Icon: Facebook    -->
-        <div class="icon icon-sm">
-          <a href="https://www.facebook.com/kamil.sohlich.31" rel="nofollow">
+        <div class="icon pink icon-sm">
+          <a href="https://www.facebook.com/kamil.sohlich.31" target="_blank" rel="nofollow">
             <svg
               viewBox="0 0 13.229166 13.229167"
               version="1.1"
@@ -2002,17 +1985,27 @@
           </a>
         </div>
         <!--    Close::Header Icon: Facebook    -->
+
+        <!--    Header Icon: Instagram    -->
+        <div class="icon pink icon-sm ms-1">
+          <a href="https://www.instagram.com/k_totsu" target="_blank" rel="nofollow">
+            <svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+              <path d="M127.999746,23.06353 C162.177385,23.06353 166.225393,23.1936027 179.722476,23.8094161 C192.20235,24.3789926 198.979853,26.4642218 203.490736,28.2166477 C209.464938,30.5386501 213.729395,33.3128586 218.208268,37.7917319 C222.687141,42.2706052 225.46135,46.5350617 227.782844,52.5092638 C229.535778,57.0201472 231.621007,63.7976504 232.190584,76.277016 C232.806397,89.7746075 232.93647,93.8226147 232.93647,128.000254 C232.93647,162.177893 232.806397,166.225901 232.190584,179.722984 C231.621007,192.202858 229.535778,198.980361 227.782844,203.491244 C225.46135,209.465446 222.687141,213.729903 218.208268,218.208776 C213.729395,222.687649 209.464938,225.461858 203.490736,227.783352 C198.979853,229.536286 192.20235,231.621516 179.722476,232.191092 C166.227425,232.806905 162.179418,232.936978 127.999746,232.936978 C93.8200742,232.936978 89.772067,232.806905 76.277016,232.191092 C63.7971424,231.621516 57.0196391,229.536286 52.5092638,227.783352 C46.5345536,225.461858 42.2700971,222.687649 37.7912238,218.208776 C33.3123505,213.729903 30.538142,209.465446 28.2166477,203.491244 C26.4637138,198.980361 24.3784845,192.202858 23.808908,179.723492 C23.1930946,166.225901 23.0630219,162.177893 23.0630219,128.000254 C23.0630219,93.8226147 23.1930946,89.7746075 23.808908,76.2775241 C24.3784845,63.7976504 26.4637138,57.0201472 28.2166477,52.5092638 C30.538142,46.5350617 33.3123505,42.2706052 37.7912238,37.7917319 C42.2700971,33.3128586 46.5345536,30.5386501 52.5092638,28.2166477 C57.0196391,26.4642218 63.7971424,24.3789926 76.2765079,23.8094161 C89.7740994,23.1936027 93.8221066,23.06353 127.999746,23.06353 M127.999746,0 C93.2367791,0 88.8783247,0.147348072 75.2257637,0.770274749 C61.601148,1.39218523 52.2968794,3.55566141 44.1546281,6.72008828 C35.7374966,9.99121548 28.5992446,14.3679613 21.4833489,21.483857 C14.3674532,28.5997527 9.99070739,35.7380046 6.71958019,44.1551362 C3.55515331,52.2973875 1.39167714,61.6016561 0.769766653,75.2262718 C0.146839975,88.8783247 0,93.2372872 0,128.000254 C0,162.763221 0.146839975,167.122183 0.769766653,180.774236 C1.39167714,194.398852 3.55515331,203.703121 6.71958019,211.845372 C9.99070739,220.261995 14.3674532,227.400755 21.4833489,234.516651 C28.5992446,241.632547 35.7374966,246.009293 44.1546281,249.28042 C52.2968794,252.444847 61.601148,254.608323 75.2257637,255.230233 C88.8783247,255.85316 93.2367791,256 127.999746,256 C162.762713,256 167.121675,255.85316 180.773728,255.230233 C194.398344,254.608323 203.702613,252.444847 211.844864,249.28042 C220.261995,246.009293 227.400247,241.632547 234.516143,234.516651 C241.632039,227.400755 246.008785,220.262503 249.279912,211.845372 C252.444339,203.703121 254.607815,194.398852 255.229725,180.774236 C255.852652,167.122183 256,162.763221 256,128.000254 C256,93.2372872 255.852652,88.8783247 255.229725,75.2262718 C254.607815,61.6016561 252.444339,52.2973875 249.279912,44.1551362 C246.008785,35.7380046 241.632039,28.5997527 234.516143,21.483857 C227.400247,14.3679613 220.261995,9.99121548 211.844864,6.72008828 C203.702613,3.55566141 194.398344,1.39218523 180.773728,0.770274749 C167.121675,0.147348072 162.762713,0 127.999746,0 Z M127.999746,62.2703115 C91.698262,62.2703115 62.2698034,91.69877 62.2698034,128.000254 C62.2698034,164.301738 91.698262,193.730197 127.999746,193.730197 C164.30123,193.730197 193.729689,164.301738 193.729689,128.000254 C193.729689,91.69877 164.30123,62.2703115 127.999746,62.2703115 Z M127.999746,170.667175 C104.435741,170.667175 85.3328252,151.564259 85.3328252,128.000254 C85.3328252,104.436249 104.435741,85.3333333 127.999746,85.3333333 C151.563751,85.3333333 170.666667,104.436249 170.666667,128.000254 C170.666667,151.564259 151.563751,170.667175 127.999746,170.667175 Z M211.686338,59.6734287 C211.686338,68.1566129 204.809755,75.0337031 196.326571,75.0337031 C187.843387,75.0337031 180.966297,68.1566129 180.966297,59.6734287 C180.966297,51.1902445 187.843387,44.3136624 196.326571,44.3136624 C204.809755,44.3136624 211.686338,51.1902445 211.686338,59.6734287 Z"></path>
+            </svg>
+          </a>
+        </div>
+        <!--    Close::Header Icon: Instagram    -->
       </div>
     </div>
   </header>
 
   <!--    Header Icon Container: SM<    -->
-  <div class="w-100 header-ico d-flex justify-content-center position-fixed mb-5" style="bottom: 0; z-index: 999;">
+  <div class="header-ico d-flex justify-content-center position-fixed" style="bottom: 3.5rem; right: 5rem; z-index: 999;">
     <div class="container d-flex justify-content-end">
       <div class="d-none d-md-flex mt-0 ms-0">
         <!--    Header Icon: Linkedin    -->
-        <div class="icon icon-sm me-2">
-          <a href="https://www.linkedin.com/in/kamil-sohlich-127653218" rel="nofollow">
+        <div class="icon pink icon-sm me-2">
+          <a href="https://www.linkedin.com/in/kamil-sohlich-127653218" target="_blank" rel="nofollow">
             <svg
               viewBox="0 0 13.229166 13.229167"
               version="1.1"
@@ -2863,8 +2856,8 @@
         <!--    Close::Header Icon: Linkedin    -->
 
         <!--    Header Icon: Facebook    -->
-        <div class="icon icon-sm">
-          <a href="https://www.facebook.com/kamil.sohlich.31" rel="nofollow">
+        <div class="icon pink icon-sm">
+          <a href="https://www.facebook.com/kamil.sohlich.31" target="_blank" rel="nofollow">
             <svg
               viewBox="0 0 13.229166 13.229167"
               version="1.1"
@@ -3713,6 +3706,16 @@
           </a>
         </div>
         <!--    Close::Header Icon: Facebook    -->
+
+        <!--    Header Icon: Instagram    -->
+        <div class="icon pink icon-sm ms-1">
+          <a href="https://www.instagram.com/k_totsu" target="_blank" rel="nofollow">
+            <svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+              <path d="M127.999746,23.06353 C162.177385,23.06353 166.225393,23.1936027 179.722476,23.8094161 C192.20235,24.3789926 198.979853,26.4642218 203.490736,28.2166477 C209.464938,30.5386501 213.729395,33.3128586 218.208268,37.7917319 C222.687141,42.2706052 225.46135,46.5350617 227.782844,52.5092638 C229.535778,57.0201472 231.621007,63.7976504 232.190584,76.277016 C232.806397,89.7746075 232.93647,93.8226147 232.93647,128.000254 C232.93647,162.177893 232.806397,166.225901 232.190584,179.722984 C231.621007,192.202858 229.535778,198.980361 227.782844,203.491244 C225.46135,209.465446 222.687141,213.729903 218.208268,218.208776 C213.729395,222.687649 209.464938,225.461858 203.490736,227.783352 C198.979853,229.536286 192.20235,231.621516 179.722476,232.191092 C166.227425,232.806905 162.179418,232.936978 127.999746,232.936978 C93.8200742,232.936978 89.772067,232.806905 76.277016,232.191092 C63.7971424,231.621516 57.0196391,229.536286 52.5092638,227.783352 C46.5345536,225.461858 42.2700971,222.687649 37.7912238,218.208776 C33.3123505,213.729903 30.538142,209.465446 28.2166477,203.491244 C26.4637138,198.980361 24.3784845,192.202858 23.808908,179.723492 C23.1930946,166.225901 23.0630219,162.177893 23.0630219,128.000254 C23.0630219,93.8226147 23.1930946,89.7746075 23.808908,76.2775241 C24.3784845,63.7976504 26.4637138,57.0201472 28.2166477,52.5092638 C30.538142,46.5350617 33.3123505,42.2706052 37.7912238,37.7917319 C42.2700971,33.3128586 46.5345536,30.5386501 52.5092638,28.2166477 C57.0196391,26.4642218 63.7971424,24.3789926 76.2765079,23.8094161 C89.7740994,23.1936027 93.8221066,23.06353 127.999746,23.06353 M127.999746,0 C93.2367791,0 88.8783247,0.147348072 75.2257637,0.770274749 C61.601148,1.39218523 52.2968794,3.55566141 44.1546281,6.72008828 C35.7374966,9.99121548 28.5992446,14.3679613 21.4833489,21.483857 C14.3674532,28.5997527 9.99070739,35.7380046 6.71958019,44.1551362 C3.55515331,52.2973875 1.39167714,61.6016561 0.769766653,75.2262718 C0.146839975,88.8783247 0,93.2372872 0,128.000254 C0,162.763221 0.146839975,167.122183 0.769766653,180.774236 C1.39167714,194.398852 3.55515331,203.703121 6.71958019,211.845372 C9.99070739,220.261995 14.3674532,227.400755 21.4833489,234.516651 C28.5992446,241.632547 35.7374966,246.009293 44.1546281,249.28042 C52.2968794,252.444847 61.601148,254.608323 75.2257637,255.230233 C88.8783247,255.85316 93.2367791,256 127.999746,256 C162.762713,256 167.121675,255.85316 180.773728,255.230233 C194.398344,254.608323 203.702613,252.444847 211.844864,249.28042 C220.261995,246.009293 227.400247,241.632547 234.516143,234.516651 C241.632039,227.400755 246.008785,220.262503 249.279912,211.845372 C252.444339,203.703121 254.607815,194.398852 255.229725,180.774236 C255.852652,167.122183 256,162.763221 256,128.000254 C256,93.2372872 255.852652,88.8783247 255.229725,75.2262718 C254.607815,61.6016561 252.444339,52.2973875 249.279912,44.1551362 C246.008785,35.7380046 241.632039,28.5997527 234.516143,21.483857 C227.400247,14.3679613 220.261995,9.99121548 211.844864,6.72008828 C203.702613,3.55566141 194.398344,1.39218523 180.773728,0.770274749 C167.121675,0.147348072 162.762713,0 127.999746,0 Z M127.999746,62.2703115 C91.698262,62.2703115 62.2698034,91.69877 62.2698034,128.000254 C62.2698034,164.301738 91.698262,193.730197 127.999746,193.730197 C164.30123,193.730197 193.729689,164.301738 193.729689,128.000254 C193.729689,91.69877 164.30123,62.2703115 127.999746,62.2703115 Z M127.999746,170.667175 C104.435741,170.667175 85.3328252,151.564259 85.3328252,128.000254 C85.3328252,104.436249 104.435741,85.3333333 127.999746,85.3333333 C151.563751,85.3333333 170.666667,104.436249 170.666667,128.000254 C170.666667,151.564259 151.563751,170.667175 127.999746,170.667175 Z M211.686338,59.6734287 C211.686338,68.1566129 204.809755,75.0337031 196.326571,75.0337031 C187.843387,75.0337031 180.966297,68.1566129 180.966297,59.6734287 C180.966297,51.1902445 187.843387,44.3136624 196.326571,44.3136624 C204.809755,44.3136624 211.686338,51.1902445 211.686338,59.6734287 Z"></path>
+            </svg>
+          </a>
+        </div>
+        <!--    Close::Header Icon: Instagram    -->
       </div>
     </div>
   </div>
@@ -3724,7 +3727,12 @@
   <section id="sec-home" class="section d-flex flex-column">
     <div class="container">
       <!--    Section Home: container me    -->
-      <div class="con-me w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+      <div
+        class="con-me w-100 h-100 d-flex flex-column justify-content-center align-items-center"
+        data-aos="zoom-out-up"
+        data-aos-delay="0"
+        data-aos-once="true"
+      >
         <img src="assets/svgs/logo.svg" width="300px" height="150px" alt="My logo" />
       </div>
       <!--    Close::Section Home: container me    -->
@@ -3809,7 +3817,7 @@
           <h6 class="w-100 text-center mb-3 sec-title">DZIEŃ DOBRY</h6>
           <p class="w-100 text-center sec-desc">
             My name is
-            <a href="https://www.facebook.com/kamil.sohlich.31" rel="nofollow">Kamil Sohlich</a>
+            <a href="https://www.facebook.com/kamil.sohlich.31" target="_blank" rel="nofollow">Kamil Sohlich</a>
             and I love music, programing and… everything what is creative.</p>
         </div>
       </div>
@@ -3820,10 +3828,10 @@
         <!--    Sec About: My Picture    -->
         <div class="d-flex flex-column align-items-center align-items-md-end position-relative mb-5 mb-lg-0">
           <div class="my-picture position-relative overflow-hidden d-flex justify-content-center align-items-center">
-            <img src="assets/imgs/itsMe.jpg" alt="This is my portrait photo" width="140%" height="100%" />
+            <img src="assets/imgs/itsMe.jpg" alt="Kamil Sohlich programmer and ui/ux designer" width="140%" height="100%" />
           </div>
 
-          <img class="my-picture-back" src="assets/svgs/block.svg" />
+          <img class="my-picture-back" src="assets/svgs/block.svg" data-aos="fade-left" />
         </div>
         <!--    Close::Sec About: My Picture    -->
 
@@ -3858,42 +3866,42 @@
       <!--    Sec Projects: Body    -->
       <div class="d-flex pt-md-5 flex-column align-items-center position-relative">
         <!--    Sec Projects: Gallery    -->
-        <div class="con-projects overflow-hidden">
+        <div class="con-projects overflow-hidden" data-aos="fade-up">
           <!--    Sec Projects Gallery: Container    -->
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 overflow-hidden">
             <!--    Sec Projects Gallery Container: Element    -->
             <div class="col px-0 el-project">
-              <a href="https://www.linkedin.com/in/kamil-sohlich-127653218" rel="nofollow"><img src="assets/imgs/Totsuii.jpg" alt="My project" width="100%" height="100%" /></a>
+              <a href="https://github.com/e-totsu" target="_blank" rel="nofollow"><img src="assets/imgs/Project_1.jpg" alt="My project" width="100%" height="100%" /></a>
             </div>
             <!--    Close::Sec Projects Gallery Container: Element    -->
 
             <!--    Sec Projects Gallery Container: Element    -->
             <div class="col px-0 el-project">
-              <a href="https://www.linkedin.com/in/kamil-sohlich-127653218" rel="nofollow"><img src="assets/imgs/Totsuii.jpg" alt="My project" width="100%" height="100%" /></a>
+              <a href="https://github.com/e-totsu" target="_blank" rel="nofollow"><img src="assets/imgs/Project_3.jpg" alt="My project" width="100%" height="100%" /></a>
             </div>
             <!--    Close::Sec Projects Gallery Container: Element    -->
 
             <!--    Sec Projects Gallery Container: Element    -->
             <div class="col px-0 el-project">
-              <a href="https://www.linkedin.com/in/kamil-sohlich-127653218" rel="nofollow"><img src="assets/imgs/Totsuii.jpg" alt="My project" width="100%" height="100%" /></a>
+              <a href="https://github.com/e-totsu" target="_blank" rel="nofollow"><img src="assets/imgs/Project.jpg" alt="My project" width="100%" height="100%" /></a>
             </div>
             <!--    Close::Sec Projects Gallery Container: Element    -->
 
             <!--    Sec Projects Gallery Container: Element    -->
             <div class="col px-0 el-project">
-              <a href="https://www.linkedin.com/in/kamil-sohlich-127653218" rel="nofollow"><img src="assets/imgs/Totsuii.jpg" alt="My project" width="100%" height="100%" /></a>
+              <a href="https://github.com/e-totsu" target="_blank" rel="nofollow"><img src="assets/imgs/Project_2.jpg" alt="My project" width="100%" height="100%" /></a>
             </div>
             <!--    Close::Sec Projects Gallery Container: Element    -->
 
             <!--    Sec Projects Gallery Container: Element    -->
             <div class="col px-0 el-project">
-              <a href="https://www.linkedin.com/in/kamil-sohlich-127653218" rel="nofollow"><img src="assets/imgs/Totsuii.jpg" alt="My project" width="100%" height="100%" /></a>
+              <a href="https://github.com/e-totsu" target="_blank" rel="nofollow"><img src="assets/imgs/Project.jpg" alt="My project" width="100%" height="100%" /></a>
             </div>
             <!--    Close::Sec Projects Gallery Container: Element    -->
 
             <!--    Sec Projects Gallery Container: Element    -->
             <div class="col px-0 el-project">
-              <a href="https://www.linkedin.com/in/kamil-sohlich-127653218" rel="nofollow"><img src="assets/imgs/Totsuii.jpg" alt="My project" width="100%" height="100%" /></a>
+              <a href="https://github.com/e-totsu" target="_blank" rel="nofollow"><img src="assets/imgs/Project_4.jpg" alt="My project" width="100%" height="100%" /></a>
             </div>
             <!--    Close::Sec Projects Gallery Container: Element    -->
           </div>
@@ -3903,7 +3911,9 @@
 
         <!--    Sec Projects: View More button    -->
         <div class="d-flex justify-content-center position-relative mt-5">
-          <div class="btn"><a href="https://www.linkedin.com/in/kamil-sohlich-127653218" rel="nofollow">View More Projects</a></div>
+          <div class="btn">
+            <a href="https://github.com/e-totsu" target="_blank" rel="nofollow">View More Projects</a>
+          </div>
         </div>
         <!--    Close::Sec Projects: View More button    -->
       </div>
@@ -3923,16 +3933,17 @@
           <h6 class="w-100 text-center mb-3 sec-title">KURTYNA</h6>
           <p class="w-100 text-center sec-desc">
             Thank you for your time. Now I want to invite you to my
-            <a href="https://www.linkedin.com/in/kamil-sohlich-127653218" rel="nofollow">Linkedin</a>,
-            <a href="https://www.facebook.com/kamil.sohlich.31" rel="nofollow">Facebook</a>,
-            <a href="https://github.com/e-totsu" rel="nofollow">GitHub</a>.
+            <a href="https://www.linkedin.com/in/kamil-sohlich-127653218" target="_blank" rel="nofollow">Linkedin</a>,
+            <a href="https://www.facebook.com/kamil.sohlich.31"           target="_blank" rel="nofollow">Facebook</a>,
+            <a href="https://www.instagram.com/k_totsu"                   target="_blank" rel="nofollow">Instagram</a> and
+            <a href="https://github.com/e-totsu"                          target="_blank" rel="nofollow">GitHub</a>.
             See You soon!</p>
         </div>
       </div>
       <!--    Close::Sec Socials: Title    -->
 
       <!--    Sec Socials: Body    -->
-      <div class="d-flex flex justify-content-center position-relative">
+      <div class="d-flex flex justify-content-center position-relative" data-aos="zoom-out">
         <!--    Sec Projects: Blossom    -->
         <div class="d-flex justify-content-center position-relative con-blossom">
           <img src="assets/svgs/blossom.svg" alt="Vector blossom" width="150%" height="150%" class="position-absolute" />
@@ -3959,11 +3970,11 @@
           <span class="d-flex flex-column flex-md-row align-items-center">
             <a
               class="btn mx-1 mt-1 mt-md-2"
-              href="mailto:kamil_sohlich@outlook.com?subject=[totsu-contact] - Your Subject"
+              href="mailto:kamils@totsu.eu?subject=[totsu-contact] - Your Subject"
             >
-              kamil_sohlich@outlook.com
+              kamils@totsu.eu
             </a>
-            <a class="btn mx-1 mt-2" href="tel:+48-665-357-938">+48 665 357 938</a>
+            <a class="btn mx-1 mt-2" href="https://www.facebook.com/kamil.sohlich.31">Kamil Sohlich</a>
           </span>
           <!--    Close::Sec Contact Title: email and phone    -->
         </div>
@@ -3988,7 +3999,7 @@
         <span class="footer-text">
           <span>Totsu</span>
           by
-          <a href="https://www.facebook.com/kamil.sohlich.31" rel="nofollow">Kamil Sohlich</a>
+          <a href="https://www.facebook.com/kamil.sohlich.31" target="_blank" rel="nofollow">Kamil Sohlich</a>
           © 2022
         </span>
       </div>
@@ -4023,5 +4034,29 @@
 
   <!--    JS: Parallax    -->
   <script src="./scripts/parallax.js"></script>
+
+  <!--    JS: AOS    -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      disable: false,
+      startEvent: 'DOMContentLoaded',
+      initClassName: 'aos-init',
+      animatedClassName: 'aos-animate',
+      useClassNames: false,
+      disableMutationObserver: false,
+      debounceDelay: 50,
+      throttleDelay: 99,
+
+      offset: 124,
+      delay: 200,
+      duration: 800,
+      easing: 'ease',
+      once: false,
+      mirror: false,
+      anchorPlacement: 'top-bottom',
+    });
+  </script>
 </body>
 </html>

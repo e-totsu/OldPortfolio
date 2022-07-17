@@ -5,7 +5,6 @@
   width : min(80%, 320px);
   height: min(100%, 420px);
 
-  border: 2px solid var(--my-bg-primary-1);
   border-radius: var(--my-rad-primary);
 
   -webkit-box-shadow: 30px 30px 60px 0 var(--my-sha);
@@ -17,6 +16,17 @@
   -ms-transform    : scaleX(-1);
   -o-transform     : scaleX(-1);
   transform        : scaleX(-1);
+}
+
+#sec-about .my-picture:after {
+  position: absolute;
+  content: '';
+
+  width: 100%;
+  height: 100%;
+
+  border: 2px solid var(--my-bg-primary-1);
+  border-radius: var(--my-rad-primary);
 }
 
 /************************************/
